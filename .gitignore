@@ -122,4 +122,4 @@ sftp-config.json
 
 ### others
 js/build/
-
+bower_components/

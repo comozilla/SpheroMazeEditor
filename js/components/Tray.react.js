@@ -8,7 +8,7 @@ export default class Tray extends React.Component {
   render() {
     return (
       <ul id="tray">
-        <TrayItem itemColor="orange" />
+        <TrayItem itemColor="orange" icon="fa-arrows" />
       </ul>
     );
   }

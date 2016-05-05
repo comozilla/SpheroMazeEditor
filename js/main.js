@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 
 import "../css/style.css";
+import "font-awesome";
 
 import Tray from "./components/Tray.react";
 
