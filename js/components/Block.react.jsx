@@ -14,7 +14,7 @@ export default class Block extends React.Component {
   }
   render() {
     return (
-      <li style={{backgroundColor: this.props.itemColor}}>
+      <li style={{ backgroundColor: this.props.itemColor }}>
         <span className={"fa " + this.props.icon} />
       </li>
     );

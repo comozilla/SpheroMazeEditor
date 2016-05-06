@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "lint": "eslint --fix --ignore-path ./.eslintignore js/ gulpfile.js webpack.config.js"
+    "lint": "eslint --fix webpack.config.js gulpfile.js js/**/*.jsx js/**/*.js"
   },
   "repository": {
     "type": "git",
