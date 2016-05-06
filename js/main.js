@@ -4,11 +4,11 @@ import ReactDOM from "react-dom";
 import "../css/style.css";
 import "font-awesome";
 
-import Tray from "./components/Tray.react";
+import BlockField from "./components/BlockField.react";
 
 document.addEventListener("DOMContentLoaded", function() {
   ReactDOM.render(
-    <Tray />,
+    <BlockField />,
     document.getElementById("app")
   );
 });
