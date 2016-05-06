@@ -2,7 +2,7 @@ const webpack = require("webpack");
 
 module.exports = {
   cache: true,
-  entry: "./js/main.js",
+  entry: "./js/main.jsx",
   output: {
     path: __dirname,
     filename: "./js/build/bundle.js"
@@ -10,7 +10,7 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.js$/,
+        test: /\.(js|jsx)$/,
         exclude: /(node_modules|bower_components)/,
         loader: "babel",
         query: {
