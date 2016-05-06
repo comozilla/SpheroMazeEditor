@@ -6,7 +6,7 @@ var a = "";
 import "../css/style.css";
 import "font-awesome";
 
-import BlockField from "./components/BlockField.react";
+import BlockField from "./components/BlockField.react.jsx";
 
 document.addEventListener("DOMContentLoaded", function() {
   ReactDOM.render(

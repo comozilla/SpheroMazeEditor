@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import Appender from "./Appender.react";
+import Appender from "./Appender.react.jsx";
 
 export default class BlockField extends React.Component {
 

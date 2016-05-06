@@ -2,7 +2,7 @@ const webpack = require("webpack");
 
 module.exports = {
   cache: true,
-  entry: "./js/main.js",
+  entry: "./js/main.jsx",
   output: {
     path: __dirname,
     filename: "./js/build/bundle.js"
