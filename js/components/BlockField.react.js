@@ -9,6 +9,13 @@ export default class BlockField extends React.Component {
     return (
       <ul id="block-field">
         <Appender />
+        <Appender />
+        <Appender />
+        <Appender />
+        <Appender />
+        <Appender />
+        <Appender />
+        <Appender />
       </ul>
     );
   }
