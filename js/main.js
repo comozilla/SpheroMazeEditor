@@ -1,17 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-class HelloWorld extends React.Component {
-  render() {
-    return (
-      <span>Hello, World!</span>
-    );
-  }
-}
+import "../css/style.css";
+import "font-awesome";
+
+import BlockField from "./components/BlockField.react";
 
 document.addEventListener("DOMContentLoaded", function() {
   ReactDOM.render(
-    <HelloWorld />,
+    <BlockField />,
     document.getElementById("app")
   );
 });
