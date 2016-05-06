@@ -11,12 +11,27 @@ body {
   padding: 10px;
 }
 #block-field li  {
+  float: left;
   width: 80px;
   height: 80px;
-  border-radius: 80px;
   list-style-type: none;
   text-align: center;
   line-height: 80px;
   text-align: center;
   background-color: #ecf0f1;
+  position: relative;
+}
+#block-field li:after {
+  content: "";
+  position: absolute;
+  margin-top: -50%;
+  border-top: 40px solid transparent;
+  border-bottom: 40px solid transparent;
+  border-left: 30px solid #ecf0f1;
+  right: -30px;
+  top: 50%;
+}
+
+#block-field li:first-child {
+  border-radius: 20px 0 0 20px;
 }
