@@ -1,7 +1,4 @@
-import React from "react";
 import ReactDOM from "react-dom";
-
-var a = "";
 
 import "../css/style.css";
 import "font-awesome";

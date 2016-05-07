@@ -1,7 +1,7 @@
 import Dispatcher from "./Dispatcher";
-var assign = require("object-assign");
+const assign = require("object-assign");
 
-var AppDispatcher = assign({}, Dispatcher.prototype, {
+const AppDispatcher = assign({}, Dispatcher.prototype, {
   handleBlockAction: function(action) {
     this.dispatch({
       source: "BLOCK_ACTION",
