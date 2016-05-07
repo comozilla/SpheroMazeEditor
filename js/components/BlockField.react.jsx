@@ -7,7 +7,7 @@ import Appender from "./Appender.react.jsx";
 function getBlockState() {
   return {
     blocks: BlockStore.getAll()
-  }
+  };
 }
 export default class BlockField extends React.Component {
   constructor(prop) {
@@ -21,7 +21,6 @@ export default class BlockField extends React.Component {
     BlockStore.removeChangeListener(this._onChange.bind(this));
   }
   render() {
-    console.log("fuga");
     let blocks = [];
     this.state.blocks.forEach(blockDetail => {
       blocks.push(
@@ -31,6 +30,7 @@ export default class BlockField extends React.Component {
         />
       );
     });
+
     return (
       <ul id="block-field">
         {blocks}
@@ -39,7 +39,6 @@ export default class BlockField extends React.Component {
     );
   }
   _onChange() {
-    console.log(this.state);
     this.setState(getBlockState());
   }
 }
