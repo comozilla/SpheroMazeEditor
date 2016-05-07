@@ -21,6 +21,7 @@ body {
   background-color: #ecf0f1;
   position: relative;
   margin-left: 40px;
+  cursor: pointer;
 }
 
 #block-field li:before {
