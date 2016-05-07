@@ -1,7 +1,7 @@
-import Dispatcher from "./Dispatcher";
+const Dispatcher = require("flux").Dispatcher;
 const assign = require("object-assign");
 
-const AppDispatcher = assign({}, Dispatcher.prototype, {
+const AppDispatcher = assign(new Dispatcher(), {
   handleBlockAction: function(action) {
     this.dispatch({
       source: "BLOCK_ACTION",
