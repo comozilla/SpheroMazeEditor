@@ -1,0 +1,20 @@
+{
+  "name": "sphero-maze-editor",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "comozilla"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/comozilla/SpheroMazeEditor",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "^4.6.2"
+  }
+}
