@@ -1,6 +1,6 @@
 import React from "react";
 
-import BlockActions from "../actions/BlockActions";
+import BlockActions from "../action-creators/BlockActions";
 
 export default class Appender extends React.Component {
   render() {
